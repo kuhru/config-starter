@@ -7,6 +7,7 @@ yum upgrade -y
 # basic setup
 
 yum install -y curl-minimal wget git nano
+# git clone https://github.com/kuhru/setup-everything.git
 
 # zsh and omz download
 
