@@ -1,5 +1,13 @@
 # SETUP EVERYTHING
 
+> use for-\* file depending on system
+
+> all of this document uses internet, so to be followed before cutting off WAN access
+
 ## SHELL
 
-Using files `./01-shell/for-*` files depending on system, start with sh and run the `non-underscore` file before anything. It sets up zsh and omz, using internet
+sets up zsh and oh-my-zsh with a considerable quantity of plugins, that can be made use of without having to manually modify the .zshrc, once executables are installed
+
+## NVIM
+
+sets up nvim with some basic configuration, like highlighting and relative row numbering
