@@ -8,7 +8,7 @@ yum upgrade -y
 
 yum install -y curl-minimal wget git nano which
 # mkdir ~/Documents && cd ~/Documents && git clone https://github.com/kuhru/setup-everything.git && cd setup-everything
-# nano 01-shell/for-yum.sh
+# nano 01-shell/for-yum.shnano 01-shell/for-yum.sh
 # ./01-shell/for-yum.sh
 
 # zsh and omz download
