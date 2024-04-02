@@ -12,5 +12,5 @@ omz_install_setup() {
 
   # omz setup
 
-  cp ./_zshrc_dump ~/.zshrc
+  cp ./01-shell/_zshrc_dump ~/.zshrc
 }

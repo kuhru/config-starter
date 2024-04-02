@@ -2,11 +2,11 @@
 
 # update and upgrade
 
-yum upgrade -y
+dnf upgrade -y
 
 # basic setup vi and vim
 
-yum install -y vi vim
+dnf install -y vi vim
 
 source ./02-nvim/_internal/_nvim_setup.zsh
 nvim_install_setup

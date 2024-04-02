@@ -10,14 +10,14 @@ sdkman_install_setup_java() {
   # sdkman config
 
   mkdir -p ~/.sdkman/etcj
-  cp ./_sdkman_dump ~/.sdkman/etc/config
+  cp ./03-dev-cli/_sdkman_dump ~/.sdkman/etc/config
 
   # java install for version passed from main file $1 [like 21.0.2-amzn]
 
   sdk install java $1
 
 
-  # sdkman soffline to not phone home
+  # sdkman offline to not phone home
 
   sdk offline enable
 }

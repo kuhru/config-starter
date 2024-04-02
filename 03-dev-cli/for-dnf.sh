@@ -3,7 +3,7 @@
 # update and upgrade
 ## pre-requisite are [zip unzip findutils tar, installed in 01]
 
-yum upgrade -y
+dnf upgrade -y
 
 source ./03-dev-cli/_internal/_sdkman_setup.zsh
 sdkman_install_setup_java 21.0.2-amzn

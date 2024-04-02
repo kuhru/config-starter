@@ -16,5 +16,5 @@ yum install -y curl-minimal wget git nano which zip unzip tar findutils jq
 ## util-linux-user is for chsh
 yum install -y zsh util-linux-user
 
-source ~/_internal/_omz_setup.sh
+source ./01-shell/_internal/_omz_setup.sh
 omz_install_setup
