@@ -9,7 +9,7 @@ sdkman_install_setup_java() {
 
   # sdkman config
 
-  mkdir -p ~/.sdkman/etcj
+  mkdir -p ~/.sdkman/etc
   cp ./03-dev-cli/_sdkman_dump ~/.sdkman/etc/config
 
   # java install for version passed from main file $1 [like 21.0.2-amzn]
