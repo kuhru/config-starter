@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 sdkman_install_setup_java() {
   # sdkman install
   ## https://sdkman.io/
@@ -10,11 +12,12 @@ sdkman_install_setup_java() {
   mkdir -p ~/.sdkman/etcj
   cp ./_sdkman_dump ~/.sdkman/etc/config
 
-  # sdkman setup
-
-  sdk offline enable
-
   # java install for version passed from main file $1 [like 21.0.2-amzn]
 
   sdk install java $1
+
+
+  # sdkman soffline to not phone home
+
+  sdk offline enable
 }

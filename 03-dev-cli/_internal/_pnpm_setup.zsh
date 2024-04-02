@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 pnpm_install_setup_node_npm() {
   # pnpm install
   ## https://pnpm.io/installation

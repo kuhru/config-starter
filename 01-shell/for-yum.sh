@@ -3,7 +3,7 @@
 # update and upgrade
 
 yum upgrade -y
-# yum upgrade -y && yum install -y curl-minimal wget git nano which && mkdir ~/Documents && cd ~/Documents && git clone https://github.com/kuhru/setup-everything.git && cd setup-everything
+# yum upgrade -y && yum install -y curl-minimal wget git nano which zip unzip tar findutils jq && mkdir ~/Documents && cd ~/Documents && git clone https://github.com/kuhru/setup-everything.git && cd setup-everything
 
 # basic setup
 

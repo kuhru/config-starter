@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # update and upgrade
 ## pre-requisite are [zip unzip findutils tar, installed in 01]
