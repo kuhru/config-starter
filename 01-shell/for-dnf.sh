@@ -8,8 +8,8 @@ dnf upgrade -y
 # basic setup
 
 dnf install -y curl-minimal wget git nano which zip unzip tar findutils jq
-# nano 01-shell/for-yum.sh
-# ./01-shell/for-yum.sh
+# nano 01-shell/for-dnf.sh
+# ./01-shell/for-dnf.sh
 
 # zsh and omz download
 ## util-linux-user is for chsh
