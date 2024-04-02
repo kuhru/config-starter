@@ -11,3 +11,9 @@ sets up zsh and oh-my-zsh with a considerable quantity of plugins, that can be m
 ## NVIM (02-nvim)
 
 sets up nvim with some basic configuration, like highlighting and relative row numbering
+
+## DEV CLI (03-dev-cli)
+
+downloads sdkman, to install java 21.0.2-amzn
+
+downloads pnpm, to install node 20.12.0, and npm 10.5.0
