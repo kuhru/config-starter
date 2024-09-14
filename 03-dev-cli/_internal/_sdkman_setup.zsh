@@ -16,7 +16,6 @@ sdkman_install_setup_java() {
 
   sdk install java $1
 
-
   # sdkman offline to not phone home
 
   sdk offline enable

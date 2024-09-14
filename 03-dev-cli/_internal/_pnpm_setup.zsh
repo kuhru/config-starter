@@ -12,7 +12,16 @@ pnpm_install_setup_node_npm() {
   pnpm env use -g $1
 
   # add pnpm completions to command line
-
-  pnpm install-completion zsh
+  ## https://pnpm.io/completion
+  pnpm completion zsh > $ZSH_CUSTOM/completions/zsh-completion-pnpm.zsh
+  pnpm_insert_completions_to_zsh
   source ~/.zshrc
+}
+
+pnpm_insert_completions_to_zsh() {
+  local file="$HOME/.zshrc"
+  local search_str="# pnpm end"
+  local add_str='check_and_source "$ZSH_CUSTOM/completions/zsh-completion-pnpm.zsh"'
+
+  sed -i "/$search_str/i $add_str" "$file"
 }
