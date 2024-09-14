@@ -7,8 +7,8 @@ nvim_install_setup() {
   chmod u+x nvim.appimage
   ./nvim.appimage --appimage-extract
   ./squashfs-root/AppRun --version
-  mv squashfs-root /
-  ln -s /squashfs-root/AppRun /usr/bin/nvim
+  mv squashfs-root /  # sudo -> cmd
+  ln -s /squashfs-root/AppRun /usr/bin/nvim  # sudo -> cmd
   rm -rf nvim.appimage
 
   mkdir -p ~/.config/nvim
