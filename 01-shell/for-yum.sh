@@ -7,7 +7,7 @@ yum upgrade -y
 
 # basic setup
 
-yum install -y curl-minimal wget git nano which zip unzip tar findutils jq
+yum install -y curl-minimal wget git nano which zip unzip tar findutils jq openssl lsof procps-n
 # mkdir ~/Documents && cd ~/Documents && git clone https://github.com/kuhru/setup-everything.git && cd setup-everything
 # nano 01-shell/for-yum.sh
 # ./01-shell/for-yum.sh

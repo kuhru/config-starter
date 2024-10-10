@@ -1,0 +1,3 @@
+{
+  "conventionalCommits.scopes": ["01-shell", "02-nvim", "03-dev-cli"]
+}

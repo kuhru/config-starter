@@ -7,7 +7,7 @@ dnf upgrade -y  # sudo -> cmd
 
 # basic setup
 
-dnf install -y curl-minimal wget git nano which zip unzip tar findutils jq openssl  # sudo -> cmd --skip-broken
+dnf install -y curl-minimal wget git nano which zip unzip tar findutils jq openssl lsof procps-n  # sudo -> cmd --skip-broken
 # nano 01-shell/for-dnf.sh
 # ./01-shell/for-dnf.sh
 
